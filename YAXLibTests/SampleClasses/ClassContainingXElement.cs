@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 
 namespace YAXLibTests.SampleClasses
@@ -14,7 +11,7 @@ namespace YAXLibTests.SampleClasses
 
         public override string ToString()
         {
-            return String.Format("TheElement: {0}\r\nTheAttribute: {1}\r\n",
+            return string.Format("TheElement: {0}\r\nTheAttribute: {1}\r\n",
                 TheElement, TheAttribute);
         }
 
