@@ -7,9 +7,9 @@
     <Copyright>Copyright © 2009-2017 - Sina Iravanian</Copyright>
     <RepositoryUrl>https://github.com/MhpSoftware/YAXLib.Redux</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>2.16.0</Version>
-    <AssemblyVersion>2.16.0</AssemblyVersion>
-    <FileVersion>2.16.0</FileVersion>
+    <Version>2.20.0</Version>
+    <AssemblyVersion>2.20.0</AssemblyVersion>
+    <FileVersion>2.20.0</FileVersion>
     <LangVersion>latest</LangVersion>
     <AnalysisLevel>latest</AnalysisLevel>
     <Deterministic>true</Deterministic>

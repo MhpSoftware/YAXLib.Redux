@@ -1001,6 +1001,7 @@ namespace YAXLibTests
   </IntArray>
 " +
 #if NETCOREAPP
+// https://devblogs.microsoft.com/dotnet/floating-point-parsing-and-formatting-improvements-in-net-core-3-0/
  @"  <DoubleArray yaxlib:dims=""2,3,3"">
     <Double>2</Double>
     <Double>0.6666666666666666</Double>
