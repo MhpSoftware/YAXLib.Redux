@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Xml.Linq;
 
 namespace YAXLibTests.SampleClasses
@@ -11,8 +12,8 @@ namespace YAXLibTests.SampleClasses
 
         public override string ToString()
         {
-            return string.Format("TheElement: {0}\r\nTheAttribute: {1}\r\n",
-                TheElement, TheAttribute);
+            return string.Format(CultureInfo.CurrentCulture, "TheElement: {0}{1}TheAttribute: {2}{3}",
+                TheElement, Environment.NewLine, TheAttribute, Environment.NewLine);
         }
 
         public static ClassContainingXElement GetSampleInstance()

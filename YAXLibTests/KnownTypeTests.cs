@@ -106,9 +106,8 @@ namespace YAXLibTests
             }
             catch (Exception ex)
             {
-                Assert.Fail("No exception should have been throwned, but received:\r\n" + ex);
+                Assert.Fail($"No exception should have been thrown, but received:{Environment.NewLine}" + ex);
             }
-
         }
 
         [Test]
