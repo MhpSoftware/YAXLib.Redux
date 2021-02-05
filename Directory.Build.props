@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <Product>YAXLib</Product>
-    <Description>Yet Another XML Serialization Library for the .NET Framework and .Net Core</Description>
     <Company>MHP Software GmbH</Company>
+    <Authors>Sina Iravanian and Contributors</Authors>
     <Copyright>Copyright © 2009-2017 - Sina Iravanian</Copyright>
-    <RepositoryUrl>https://github.com/MhpSoftware/YAXLib.Redux</RepositoryUrl>
+    <RepositoryUrl>https://github.com/MhpSoftware/YAXLib.Redux.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Version>2.20.0</Version>
     <AssemblyVersion>2.20.0</AssemblyVersion>

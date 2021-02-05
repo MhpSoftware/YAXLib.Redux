@@ -1,6 +1,6 @@
-[2.20] Feb 04, 2021
+[2.20] Feb 05, 2021
   * Updated build toolchain to .NET SDK 5.0
-  * YAXLib now targets `netstandard2.0` instead of `netstandard1.6`
+  * YAXLib now targets exclusively `netstandard2.0`
   * Testsuite is green when targeting `net48` and `net5.0` under Microsoft Windows and under Linux using `net5.0`
   * `DemoApplication` is now a .NET 5 Windows Forms application
   * General repository cleanup
